@@ -1,4 +1,5 @@
 package nl.shadeblackwolf.engine.combat;
 
-public interface Enemy extends Combattant{
+public enum Target {
+    ENEMY, ENEMIES
 }

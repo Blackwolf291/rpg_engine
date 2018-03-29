@@ -1,0 +1,31 @@
+{
+  "armageddon": {
+    "accuracy": 5,
+    "effects": {
+      "damage": 500,
+      "death": 50,
+      "burn": 50,
+      "frozen": 50,
+      "confuse": 50,
+      "stun": 50,
+      "sleep": 50,
+      "poison": 50,
+      "flinch": 75,
+      "debuf": {
+        "def": "high"
+      }
+    },
+    "drawbacks": {
+      "slow": 2,
+      "debuf": {
+        "atk": "low",
+        "wis": "high"
+      }
+    },
+    "cost": {
+      "level": 2,
+      "mana": 120
+    },
+    "target": "enemies"
+  }
+}
